@@ -1,0 +1,19 @@
+<header>
+  <h1 class="title" data-bind="title"></h1>
+</header>
+<section class="body">
+  <div class="canvas">
+    <i data-bind-class="arrow"></i>
+    <h2 class="value" data-bind-class="value" data-bind="current | shortenedNumber | prepend prefix | append suffix"></h2>
+    <div class="row more-info">
+      <div class="left">
+        <p>Last downtime<p>
+        <p class="last-downtime" data-bind="last_downtime"></p>
+      </div>
+      <div class="right">
+        <p>Response time<p>
+        <p class="response_time" data-bind="response_time"></p>
+      </div>
+    </div>
+  </div>
+</section>
