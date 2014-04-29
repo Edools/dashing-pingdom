@@ -50,7 +50,7 @@ Add the following to your *dashboard.erb* file, and adjust the attributes to pla
 <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
   <div data-id="pingdom-status-ID" data-view="Pingdomstatus" data-title="Status Title"></div>
 </li>
-    ```
+```
 
 #### Appearance
 
