@@ -41,6 +41,9 @@ and run `bundle install`.
 
 Widget to display Pingdom Status of a specific check.
 
+#### Appearance
+
+![image](https://cloud.githubusercontent.com/assets/496442/2828620/c988e8ec-cf96-11e3-8254-85d78fd972f1.png)
 
 #### Adding this widget to your dashboard
 
@@ -51,10 +54,6 @@ Add the following to your *dashboard.erb* file, and adjust the attributes to pla
   <div data-id="pingdom-status-ID" data-view="Pingdomstatus" data-title="Status Title"></div>
 </li>
 ```
-
-#### Appearance
-
-
 
 
 ## Inspirations
