@@ -16,7 +16,7 @@ client = Pingdom::Client.new :username => user, :password => password, :key => a
 
 
 # :first_in sets how long it takes before the job is first run. In this case, it is run immediately
-SCHEDULER.every '10s', :first_in => 0 do |job|
+SCHEDULER.every '50s', :first_in => 0 do |job|
   config['checks'].each do |id|
     check = client.check(id)
     response_time = check.last_response_time
